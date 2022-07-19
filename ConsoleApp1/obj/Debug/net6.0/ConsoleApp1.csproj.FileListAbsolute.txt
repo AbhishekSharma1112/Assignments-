@@ -13,3 +13,6 @@ C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\refint
 C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
 C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ClassLibraryProject.dll
+C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ClassLibraryProject.pdb
+C:\Users\Abhishek\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete

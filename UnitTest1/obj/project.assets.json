@@ -1671,9 +1671,22 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "ClassLibraryProject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryProject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryProject.dll": {}
+        }
+      },
       "ConsoleApp1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryProject": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ConsoleApp1.dll": {}
         },
@@ -5976,6 +5989,11 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "ClassLibraryProject/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryProject/ClassLibraryProject.csproj",
+      "msbuildProject": "../ClassLibraryProject/ClassLibraryProject.csproj"
     },
     "ConsoleApp1/1.0.0": {
       "type": "project",
