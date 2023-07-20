@@ -5,6 +5,14 @@ class Program
 {
     public static void Main(String[] args)
     {
+        //Assignement 3 execution 
+        Counter counter = Counter.GetInstance();
+        counter.Increment();
+        counter.Increment();
+        counter.Increment();
+        counter.Decrement();
+        Console.WriteLine("Current Counter ---->"+"  "+counter.getCounter.ToString());// 2 is expected.
+
         //Assignment 2 execution
         Demo obj1 = new Demo();
         obj1.Message();
