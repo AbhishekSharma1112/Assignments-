@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "UnitTest1/1.0.0": {
         "dependencies": {
+          "ClassLibraryProject": "1.0.0",
           "ConsoleApp1": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "coverlet.collector": "3.1.2",

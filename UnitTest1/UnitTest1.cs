@@ -1,18 +1,19 @@
 
 namespace UnitTest1
 {
-    using ConsoleApp1; 
+    using ConsoleApp1;
+    using ClassLibraryProject;
     public class UnitTest1
     {
         [Theory]
-        [InlineData("qwerty",6)]
-        [InlineData("hell",4)]
-        [InlineData("OK",2)]
-        public void Return_StringLenght(string word,int result)
+        [InlineData("qwerty", 6)]
+        [InlineData("hell", 4)]
+        [InlineData("OK", 2)]
+        public void Return_StringLenght(string word, int result)
         {
-             LenghtHelper obj = new LenghtHelper();
-             int length = obj.findlenght(word);
-             Assert.Equal(result, length);
+            LenghtHelper obj = new LenghtHelper();
+            int length = obj.findlenght(word);
+            Assert.Equal(result, length);
         }
         [Fact]
         public void Return_NullException()
@@ -22,5 +23,29 @@ namespace UnitTest1
             Assert.Equal("Please enter value", exception.Message);
 
         }
+        //Unit Test for Assignment 3
+        [Fact]
+        public void Increment_IncreaseCounterValue()
+        {
+            var counter = Counter.GetInstance();
+            counter.Increment();
+            Assert.Equal(1, counter.getCounter);
+        }
+        [Fact]
+        public void Decrement_DecreaseCounterValue()
+        {
+            var counter = Counter.GetInstance();
+            counter.Decrement();
+            Assert.Equal(0, counter.getCounter);
+        }
+        [Fact]
+        public void Returns_SameInstance()
+        {
+            var obj1 = Counter.GetInstance();
+            var obj2 = Counter.GetInstance();
+
+            Assert.Same(obj1,obj2);
+        }
+
     }
 }

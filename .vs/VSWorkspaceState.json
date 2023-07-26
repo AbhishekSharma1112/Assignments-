@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ConsoleApp1"
   ],
-  "SelectedNode": "\\ClassLibrary1.sln",
+  "SelectedNode": "\\ConsoleApp1\\LenghtHelper.cs",
   "PreviewInSolutionExplorer": false
 }
