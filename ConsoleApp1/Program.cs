@@ -24,6 +24,11 @@ class Program
         string? word = Console.ReadLine();
         Console.WriteLine(obj.findlenght(word));
 
+        //Assigment 4 execution 
+        Console.WriteLine("Enter Amount");
+        Console.WriteLine();
+        string? amount = Console.ReadLine(); 
+        Console.WriteLine(amount.ToCurrency());
 
     }
 }

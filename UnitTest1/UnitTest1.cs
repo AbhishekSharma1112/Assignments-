@@ -47,5 +47,21 @@ namespace UnitTest1
             Assert.Same(obj1,obj2);
         }
 
+        //Unit test for Assigment 4 
+        [Fact]
+        public void Returns_FormattedString()
+        {
+            string input = "333.5";
+            string output = input.ToCurrency();
+            Assert.Equal("$ 333.50", output);
+        }
+
+        [Fact]
+        public void Returns_FormatException()
+        {
+            string input = "abc";
+            Assert.Throws<FormatException>(() => input.ToCurrency());
+        }
+
     }
 }
