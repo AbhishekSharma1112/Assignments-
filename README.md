@@ -15,3 +15,13 @@ Singleton typically means that only one instance of the class can be created.
 ## Assignment -4 
 Extension Method
 Extend the string class, add a new function called ToCurrency(). If string contains numbers, the function will prepend $ sign to and return a new string or else it will throw an exception.
+
+## Assignment -5
+Write a class ConsoleParser that has a run function that reads input from console, it also takes onWord, onNumber and onJunk delegates as the parameter and calls onWord or onNumber or onJunk delegates based on the following algorithm
+The consoleparser continously reads the input from the console using ReadLine and if it encounters a word that is group of english characters, it calls onWord.If it encounters a group of numbers, it calls onNumber and if the input has junk (non alphabet or non numbers) characters it calls onJunk.
+You can assume user will enter one word at a time and if the word has junk characters it will always call
+onJunk, if the input has both numbers and english characters, it will always call onWord, and if the input has only numbers, it will call onNumber.
+
+## Output 
+
+![](Output.jpg)
