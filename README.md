@@ -22,6 +22,11 @@ The consoleparser continously reads the input from the console using ReadLine an
 You can assume user will enter one word at a time and if the word has junk characters it will always call
 onJunk, if the input has both numbers and english characters, it will always call onWord, and if the input has only numbers, it will call onNumber.
 
+## Assigment -6
+Create ASP.NET project using .net core 5.Use app.MapGet to specify localhost/{portnumber}/hello and respond to it with hello world.
+
 ## Output 
 
 ![](Output.jpg)
+
+![](Assigment6_output.png)
