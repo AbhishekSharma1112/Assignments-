@@ -25,8 +25,16 @@ onJunk, if the input has both numbers and english characters, it will always cal
 ## Assigment -6
 Create ASP.NET project using .net core 5.Use app.MapGet to specify localhost/{portnumber}/hello and respond to it with hello world.
 
+## Assignment -7
+Implement controller that exposes Math class over web api. The functions name of the controller shouldnt be same as the webapi endpoint.
+Also Enable Swagger.
+Interface IMath has multiply, divide, substract, add functions. 
+Implement Math class that extends the IMath interface.
+
 ## Output 
 
 ![](Output.jpg)
 
 ![](Assigment6_output.png)
+
+![](Output7.png)

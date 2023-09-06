@@ -29,3 +29,9 @@ C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\obj\Debug\net6.0\refint\MyW
 C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\obj\Debug\net6.0\MyWebApp.pdb
 C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\obj\Debug\net6.0\MyWebApp.genruntimeconfig.cache
 C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\obj\Debug\net6.0\ref\MyWebApp.dll
+C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\obj\Debug\net6.0\MyWebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Abhishek\Source\Repos\Assignments-\MyWebApp\obj\Debug\net6.0\MyWebApp.csproj.CopyComplete

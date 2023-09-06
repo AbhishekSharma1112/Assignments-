@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\UnitTest1\\UnitTest1.csproj": {}
+    "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\UnitTest1\\UnitTest1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj": {
+    "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj",
         "projectName": "ClassLibraryProject",
-        "projectPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj",
+        "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj",
         "packagesPath": "C:\\Users\\Abhishek\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\obj\\",
         "projectStyle": "PackageReference",
@@ -59,12 +59,12 @@
         }
       }
     },
-    "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Abhishek\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj": {
-                "projectPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj"
+              "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj": {
+                "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj"
               }
             }
           }
@@ -118,12 +118,12 @@
         }
       }
     },
-    "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\UnitTest1\\UnitTest1.csproj": {
+    "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\UnitTest1\\UnitTest1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\UnitTest1\\UnitTest1.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\UnitTest1\\UnitTest1.csproj",
         "projectName": "UnitTest1",
-        "projectPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\UnitTest1\\UnitTest1.csproj",
+        "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\UnitTest1\\UnitTest1.csproj",
         "packagesPath": "C:\\Users\\Abhishek\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\UnitTest1\\obj\\",
         "projectStyle": "PackageReference",
@@ -142,11 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj": {
-                "projectPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj"
+              "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj": {
+                "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ClassLibraryProject\\ClassLibraryProject.csproj"
               },
-              "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj": {
-                "projectPath": "C:\\Users\\Abhishek\\Source\\Repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj"
+              "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Assignments-\\ConsoleApp1\\ConsoleApp1.csproj"
               }
             }
           }
