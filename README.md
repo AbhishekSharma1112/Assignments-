@@ -52,8 +52,8 @@ When to use - Use Singletons where you need to maintain application wide state.
 
 ## Output 
 
-![](Output.jpg)
+![](OutputImages/Output.jpg)
 
-![](Assigment6_output.png)
+![](OutputImages/Assigment6_output.png)
 
-![](Output7.png)
+![](OutputImages/Output7.png)
