@@ -10,7 +10,9 @@ var builder = WebApplication.CreateBuilder(webApplicationOptions);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddScoped<IMath, MyWebApp.Models.Math>();
+// builder.Services.AddTransient<IMath, MyWebApp.Models.Math>();
+builder.Services.AddSingleton<IMath, MyWebApp.Models.Math>();
+//builder.Services.AddScoped<IMath, MyWebApp.Models.Math>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen(c  =>

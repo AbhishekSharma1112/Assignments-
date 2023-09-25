@@ -31,6 +31,25 @@ Also Enable Swagger.
 Interface IMath has multiply, divide, substract, add functions. 
 Implement Math class that extends the IMath interface.
 
+## Assignment -8 
+ASP.NET - 3 - Dependency Injection . 
+Redo ASP.NET - 2 using Scoped, TRansient and Singleton . 
+Update readme in the github to highlight the difference between the 3 types and when not to use which one.
+
+### Transient 
+Transient objects are always different; a new instance is provided to every controller and every service.
+When to use - Use Transient for lightweight services with no state, as it creates new instance everytime it is called. 
+
+### Scoped
+Scoped objects are the same within a request, but different across different requests.
+When to use - Use Scoped when you want to maintain state within a request.
+
+### Singleton 
+Singleton objects are the same for every object and every request.
+When to use - Use Singletons where you need to maintain application wide state.
+
+
+
 ## Output 
 
 ![](Output.jpg)
