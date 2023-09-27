@@ -10,6 +10,12 @@ var builder = WebApplication.CreateBuilder(webApplicationOptions);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+// Configure logging
+builder.Logging.AddConsole();
+
+// Configure app settings
+builder.Configuration.AddJsonFile("appsettings.json");
+
 // builder.Services.AddTransient<IMath, MyWebApp.Models.Math>();
 builder.Services.AddSingleton<IMath, MyWebApp.Models.Math>();
 //builder.Services.AddScoped<IMath, MyWebApp.Models.Math>();

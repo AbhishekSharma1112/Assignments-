@@ -48,7 +48,11 @@ When to use - Use Scoped when you want to maintain state within a request.
 Singleton objects are the same for every object and every request.
 When to use - Use Singletons where you need to maintain application wide state.
 
-
+## Assignment -9 
+ASP.NET - 4 - Read configuration file
+Write an endpoint that takes a string and level of the log, if level is error print it as an error on console or a file, for warning as warning and for debug as debug. 
+From configuration file, app.settings read the allowed level, where debug is the lowest and error is the highest. 
+If error is enabled then only error is allowed to be printed and api will return current log level and whether the log was printed or not.
 
 ## Output 
 
